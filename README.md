@@ -2,7 +2,7 @@
 
 Interactive 3D Menger Sponge fractal explorer built with Unity and C#.
 
-SCREENSHOT_PLACEHOLDER_HERE
+![Inner POV](https://github.com/user-attachments/assets/0fd0f4ec-6fd1-48da-b266-0fdd43df5335)
 
 Walking inside a recursive (modified) Menger sponge. Descend through second-order tunnels with a position-driven ×3 scale of the whole sponge, come back out the same way.
 
@@ -30,6 +30,8 @@ Input System actions created in `WalkerController`, rebindable through the Input
 - `Space` — jump (hold to keep jumping).
 - `Left click` — go to the point the view centre is aimed at (marked by a ring on the surface): that face becomes "up", the line of sight is made parallel to it.
 - `F1` / `F2` — diagnostics overlay / help text.
+- `Alt + Enter` — Windowed/Full screen.
+- `Escape` — Lock/Unlock mouse cursor.
 - **F10** — quit the game.
 - **R** — back to the start.
 
@@ -47,3 +49,13 @@ Small amber triangles at the screen edge point to the 6 nearest exits (the mouth
 ```shell
 Unity -batchmode -projectPath . -runTests -testPlatform EditMode -testResults results.xml
 ```
+
+## Showcase
+
+![Starting POV](https://github.com/user-attachments/assets/5b560f78-29d3-40df-97ec-d4cab47a95cc)
+
+| &nbsp; | &nbsp; |
+| --- | --- |
+|<img width=450 src="https://github.com/user-attachments/assets/5bebb7dc-798f-4b3f-898f-68af1e83f5eb">|<img width=450 src="https://github.com/user-attachments/assets/f13ef899-f33a-4f51-ad7a-58b57d3bfe64">|
+|<img width=450 src="https://github.com/user-attachments/assets/90ff98d6-2e29-4fa3-b65a-b6b5a91d40cc">|<img width=450 src="https://github.com/user-attachments/assets/ab9ac8b1-15af-42a5-bc75-02f0b28495ba">|
+|<img width=450 src="https://github.com/user-attachments/assets/a55e7f3b-0801-4ec2-8e99-571b6f8043bb">|<img width=450 src="https://github.com/user-attachments/assets/3bb8a0a9-fedc-4ef1-9800-9ed67cfc2f69">|
