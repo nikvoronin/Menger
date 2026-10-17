@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SurfaceMaterial
+  m_Shader: {fileID: 4800000, guid: 4814ff7a607e0d14fa2c4e39bf1dd8c1, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DetailTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Ambient: 0
+    - _DetailStrength: 0
+    - _DetailTile: 33.3
+    - _Fill: 0
+    - _HueBase: 0.223
+    - _HueStep: -0.159
+    - _Key: 0.01
+    - _Phase: 0
+    - _Reflect: 0.8
+    - _RoughBase: 0
+    - _RoughVar: 0
+    - _Sat: 1
+    - _SpecStrength: 2
+    - _Val: 0.82
+    m_Colors: []
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f63a079bf3e79429dc973b877eeb01, type: 3}
+  m_Name: MengerSettings
+  m_EditorClassIdentifier: Menger.Runtime::Menger.MengerSettings
+  rootSize: 900
+  contextAncestors: 3
+  shipRadius: 5
+  walkSpeed: 30
+  jumpSpeed: 30
+  gravity: 13
+  escapeDistance: 900
+  aimRange: 3000
+  mouseSensitivity: 0.12
+  cameraFov: 110
+  pivotDepthCells: 0.1
+  approachStartCells: 0.14
+  approachEndCells: 0
+  lateralFullFraction: 0.75
+  lateralZeroFraction: 0.9
+  lodRatio: 0.2
+  minLeafSize: 4
+  rebuildDistance: 12
+  greedyMerge: 1
+  baseVisibility: 1000
+  minVisibility: 100
+  depthDecay: 0.3
+  safetyFactor: 2.5
+  reactionTime: 0.35
+  maxArrows: 6
+  arrowInset: 48
+  targetRangeMargin: 100
+  arrowSwapHysteresis: 0.8
+  surfaceHueBase: 0
+  surfaceHueStep: 0.238
+  surfaceSaturation: 0
+  surfaceBrightness: 0.92
+  surfaceAmbient: 0.3
+  surfaceSunLight: 0.65
+  surfaceFillLight: 0.25
+  detailStrength: 0
+  detailTileDivisions: 27
+  detailSeed: 7
+  detailContrast: 1.8
+  detailResolution: 512
+  roughness: 0.08
+  roughnessVariation: 0
+  specularStrength: 1.5
+  skyReflection: 0.8
+  sunOrbitSeconds: 240
+  forwardOutline: {r: 0.1, g: 0.9, b: 0.85, a: 1}
+  reverseOutline: {r: 1, g: 0.62, b: 0.12, a: 1}
+  background: {r: 0.02, g: 0.03, b: 0.05, a: 1}
+  outlineGlow: 2.2
+  showOverlay: 1
